@@ -39,6 +39,10 @@ export default defineConfig(({ mode }) => {
             dest: ".",
           },
           {
+            src: "LICENSE",
+            dest: ".",
+          },
+          {
             src: "THIRD_PARTY/",
             dest: ".",
           },
