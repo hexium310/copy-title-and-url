@@ -15,9 +15,15 @@
   },
   "background": {
     "type": "module",
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
-  "permissions": ["menus", "notifications", "tabs"],
+  "permissions": [
+    "menus",
+    "notifications",
+    "tabs"
+  ],
   "browser_specific_settings": {
     "gecko": {
       "id": "{11bbb916-ae53-4f5d-a47e-c8f4ecd689a7}",
