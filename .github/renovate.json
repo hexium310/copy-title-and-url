@@ -12,7 +12,7 @@
   "labels": ["dependencies"],
   "commitMessageAction": "Bump",
   "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
-  "cShareommitMessageTopic": "{{#if isGroup}}the {{groupName}} group{{else}}{{depName}}{{/if}}",
+  "commitMessageTopic": "{{#if isGroup}}the {{groupName}} group{{else}}{{depName}}{{/if}}",
   "commitMessageSuffix": "{{#if isGroup}}with {{upgrades.length}} updates{{/if}}",
   "minimumReleaseAge": "5 days",
   "packageRules": [
