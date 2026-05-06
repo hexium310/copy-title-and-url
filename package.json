@@ -1,0 +1,31 @@
+{
+  "name": "copy-title-and-url",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite build --mode development",
+    "build": "tsgo && vite build",
+    "lint": "eslint --flag unstable_native_nodejs_ts_config ."
+  },
+  "packageManager": "pnpm@10.33.3",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.4.0",
+    "@eslint/compat": "^2.0.5",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/firefox-webext-browser": "^143.0.0",
+    "@types/node": "^25.6.0",
+    "@typescript/native-preview": "7.0.0-dev.20260502.1",
+    "eslint": "^10.3.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import-x": "^4.16.2",
+    "globals": "^17.6.0",
+    "rollup-plugin-license": "^3.7.1",
+    "ts-pattern": "^5.9.0",
+    "typescript-eslint": "^8.59.1",
+    "vite": "^8.0.10",
+    "vite-plugin-static-copy": "^4.1.0",
+    "vite-plugin-zip-pack": "^1.2.4"
+  }
+}
