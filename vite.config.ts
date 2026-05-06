@@ -1,10 +1,11 @@
+import path from "node:path";
+
+import license from "rollup-plugin-license";
 import { defineConfig } from "vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import zipPack from "vite-plugin-zip-pack";
-import license from "rollup-plugin-license";
 
 import { name, version } from "./package.json";
-import path from "node:path";
 
 const fixedEntryFileNames = [
   "src/background/index.ts",
