@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Copy Title and URL",
   "description": "Copy the title and URL",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "icons": {
     "32": "content_copy.svg",
     "64": "content_copy.svg"
