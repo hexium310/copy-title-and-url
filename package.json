@@ -24,7 +24,7 @@
     "rollup-plugin-license": "^3.7.1",
     "ts-pattern": "^5.9.0",
     "typescript-eslint": "^8.59.1",
-    "vite": "^8.0.10",
+    "vite": "^8.0.11",
     "vite-plugin-static-copy": "^4.1.0",
     "vite-plugin-zip-pack": "^1.2.4"
   }
