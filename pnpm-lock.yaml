@@ -21,7 +21,7 @@ importers:
         specifier: ^143.0.0
         version: 143.0.0
       '@types/node':
-        specifier: ^25.6.2
+        specifier: ^25.8.0
         version: 25.8.0
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260517.1
