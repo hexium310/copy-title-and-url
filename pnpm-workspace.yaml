@@ -1,3 +1,4 @@
 allowBuilds:
   spawn-sync: false
   unrs-resolver: false
+minimumReleaseAge: 4320
