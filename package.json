@@ -9,7 +9,7 @@
     "lint": "eslint --flag unstable_native_nodejs_ts_config .",
     "update-version": "node ./scripts/update-version.ts"
   },
-  "packageManager": "pnpm@11.5.0",
+  "packageManager": "pnpm@11.9.0",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
