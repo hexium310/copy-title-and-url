@@ -27,7 +27,7 @@ jobs:
         with:
           token: ${{ secrets.BUMP_TOKEN }}
       - name: Set up pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
         with:
           cache: true
       - name: Set up Node
