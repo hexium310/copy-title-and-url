@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Release
-        uses: softprops/action-gh-release@v3.0.3
+        uses: softprops/action-gh-release@v3.0.4
         with:
           files: release/copy-title-and-url-*.xpi
           fail_on_unmatched_files: true
